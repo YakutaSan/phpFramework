@@ -1,0 +1,30 @@
+{
+  "name": "somecode/php-frame",
+  "authors": [
+    {
+      "name": "YakutaSan",
+      "email": "alex.ya@protonmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "autoload-dev": {
+    "psr-4": {
+      "Somecode\\Framework\\Tests\\": "tests"
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "Somecode\\Framework\\": "src"
+    }
+  },
+  "require": {
+    "nikic/fast-route": "^1.3",
+    "league/container": "^4.2.0",
+    "symfony/dotenv": "^6.3.0",
+    "twig/twig": "^3.7.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "10.5.x-dev",
+    "symfony/var-dumper": "6.4.x-dev"
+  }
+}
